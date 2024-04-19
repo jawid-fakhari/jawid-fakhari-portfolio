@@ -1,9 +1,12 @@
 import React from 'react'
 import '../../pages/home.css';
+import './skills.module.css'
 
 function Skills() {
     return (
-        <div>Skills</div>
+        <div>
+            <hr />
+        </div>
     )
 }
 

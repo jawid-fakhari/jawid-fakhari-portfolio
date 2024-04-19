@@ -1,0 +1,47 @@
+.headBox {
+  min-height: 65vh;
+  border: 1px solid blue;
+}
+.top {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imageBox {
+  position: fixed;
+  z-index: -1;
+  width: 350px;
+  height: 550px;
+  right: 5%;
+}
+.image {
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 100%;
+}
+.name {
+  color: #d9d9d9;
+}
+.socialIcons {
+  display: flex;
+  gap: 7px;
+}
+/**/
+.titleBox p {
+  margin: 0;
+  padding-top: 35px;
+}
+.titleBox p span {
+  text-decoration: underline 3px #4c0bce;
+  text-underline-offset: 15px;
+}
+.presentationBox {
+  margin: 50px 0;
+  width: 50%;
+}
+/**/
+.contactLink a {
+  text-underline-offset: 10px;
+  text-decoration: underline 2px #4c0bce;
+}
