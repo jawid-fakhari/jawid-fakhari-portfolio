@@ -8,12 +8,12 @@ import Contact from '../components/contact/Contact'
 
 const Home = () => {
     return (
-        <div >
+        < >
             <About />
             <Skills />
             <Projects />
             <Contact />
-        </div>
+        </>
     )
 }
 

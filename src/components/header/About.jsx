@@ -7,7 +7,7 @@ import styled from './about.module.css'
 
 function About() {
     return (
-        <div>
+        <>
             <div className={styled.headBox}>
                 <div className={styled.imageBox}>
                     <div className={styled.image}></div>
@@ -20,8 +20,8 @@ function About() {
                         <FaGithubSquare />
                         <FaLinkedin />
                     </div>
-
                 </div>
+
                 <div className={styled.welcome}>
                     <div className={styled.titleBox}>
                         <p className="titleXL">Welcome to my portfolio! <br /> I'm <span>Jawid Fakhari</span></p>
@@ -34,7 +34,7 @@ function About() {
                     </div>
                 </div>
             </div >
-        </div >
+        </>
     )
 }
 

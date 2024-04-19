@@ -1,6 +1,6 @@
+/**Headers**/
 .headBox {
   min-height: 65vh;
-  border: 1px solid blue;
 }
 .top {
   position: relative;
@@ -9,7 +9,7 @@
   align-items: center;
 }
 .imageBox {
-  position: fixed;
+  position: absolute;
   z-index: -1;
   width: 350px;
   height: 550px;
