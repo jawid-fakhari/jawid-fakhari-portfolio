@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import '../../pages/home.css';
 import Styled from './projects.module.css';
 import PresentationBox from '../presentationBox/PresentationBox';
@@ -15,17 +15,17 @@ function Projects() {
                     <a href="http://"><p>CONTACT ME</p></a>
                 </div>
             </div>
-            {/* {data.projects.map((project, index) => {
-                <PresentationBox
+            <div className={Styled.boxesWrapper}>
+                {data.projects.map((project, index) =>
+                (< PresentationBox
                     key={index}
-                    id={project.id}
                     name={project.name}
                     image={project.image}
-                    gitLink={project.gitLink}
                     link={project.link}
-                />
-            })} */}
-            <PresentationBox />
+                    gitLink={project.gitLink}
+                />)
+                )}
+            </div>
         </>
     )
 }
