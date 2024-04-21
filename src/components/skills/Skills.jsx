@@ -1,31 +1,32 @@
 import React from 'react'
 import '../../pages/home.css';
-import styled from './skills.module.css'
+import Styled from './skills.module.css'
 
 function Skills() {
     return (
         <>
             <hr />
-            <div className={styled.skillsWrapper}>
-                <div className={styled.html}>
-                    <p className="titleL">HTML</p>
-                    <p className={`${styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
+            <p className={`${Styled.skills} ${"titleL"}`}>Learning Path</p>
+            <div className={Styled.skillsWrapper}>
+                <div className={Styled.html}>
+                    <p className={`${Styled.skills} ${"titleL"}`}>HTML</p>
+                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
                 </div>
-                <div className={styled.css}>
-                    <p className="titleL">CSS</p>
-                    <p className={`${styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
+                <div className={Styled.css}>
+                    <p className={`${Styled.skills} ${"titleL"}`}>CSS</p>
+                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
                 </div>
-                <div className={styled.javascript}>
-                    <p className="titleL">JavaScript</p>
-                    <p className={`${styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
+                <div className={Styled.javascript}>
+                    <p className={`${Styled.skills} ${"titleL"}`}>JavaScript</p>
+                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
                 </div>
-                <div className={styled.bootstrap}>
-                    <p className="titleL">Bootstrap</p>
-                    <p className={`${styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
+                <div className={Styled.bootstrap}>
+                    <p className={`${Styled.skills} ${"titleL"}`}>Bootstrap</p>
+                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
                 </div>
-                <div className={styled.react}>
-                    <p className="titleL">ReactJs</p>
-                    <p className={`${styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
+                <div className={Styled.react}>
+                    <p className={`${Styled.skills} ${"titleL"}`}>ReactJs</p>
+                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
                 </div>
             </div>
         </>

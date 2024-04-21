@@ -7,20 +7,20 @@
 /**/
 .titleXL {
   font-size: 88px;
-  line-height: 88px;
   word-spacing: -2.5px;
   font-weight: bold;
+  line-height: 88px;
 }
 .titleL {
   font-size: 48px;
-  line-height: 56px;
   word-spacing: -1.5px;
   font-weight: bold;
+  line-height: 56px;
 }
 .titleM {
   font-size: 24px;
-  line-height: 32px;
   font-weight: bold;
+  line-height: 32px;
 }
 .prgMedium {
   font-size: 18px;
@@ -28,3 +28,7 @@
   font-size: medium;
 }
 /**/
+.contactLink a {
+  text-underline-offset: 10px;
+  text-decoration: underline 2px #4c0bce;
+}
