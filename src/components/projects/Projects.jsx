@@ -23,6 +23,7 @@ function Projects() {
                     image={project.image}
                     link={project.link}
                     gitLink={project.gitLink}
+                    skills={project.skills}
                 />)
                 )}
             </div>

@@ -5,42 +5,48 @@ const data = {
             name: "Tclasher",
             image: "/images/clashUI.png",
             gitLink: "#",
-            link: "#"
+            link: "#",
+            skills: "Html, CSS, JS"
         },
         {
             id: 2,
             name: "Control Pannel",
             image: "/images/clashCP.png",
             gitLink: "#",
-            link: "#"
+            link: "#",
+            skills: "Html, CSS, JS, React Js"
         },
         {
             id: 3,
             name: "Guess My Number",
             image: "/images/guessMyNumber.png",
             gitLink: "https://github.com/jawid-fakhari/guess-my-number.git",
-            link: "https://guess-my-number-five-ochre.vercel.app/"
+            link: "https://guess-my-number-five-ochre.vercel.app/",
+            skills: "Html, CSS, JS"
         },
         {
             id: 4,
             name: "Pig Game",
             image: "/images/pigGame.png",
             gitLink: "https://github.com/jawid-fakhari/pig-Game.git",
-            link: "https://pig-game-phi-nine.vercel.app/"
+            link: "https://pig-game-phi-nine.vercel.app/",
+            skills: "Html, CSS, JS"
         },
         {
             id: 5,
             name: "Bank App",
             image: "/images/bankistAccount.png",
             gitLink: "https://github.com/jawid-fakhari/Bankist.git",
-            link: "https://bankist-sooty.vercel.app/"
+            link: "https://bankist-sooty.vercel.app/",
+            skills: "Html, CSS, JS"
         },
         {
             id: 6,
             name: "UI Bank App",
             image: "/images/bankistWebsite.png",
             gitLink: "https://github.com/jawid-fakhari/bankist-second-project.git",
-            link: "https://bankist-second-project.vercel.app/"
+            link: "https://bankist-second-project.vercel.app/",
+            skills: "Html, CSS, JS"
         },
         {
             id: 7,
@@ -48,118 +54,71 @@ const data = {
             image: "/images/mapty.png",
             gitLink: "https://github.com/jawid-fakhari/starter.git",
             link: "https://mapty-sigma.vercel.app/",
+            skills: "Html, CSS, JS"
         },
         {
             id: 8,
-            name: "Crowd Funding",
+            name: "Crowdfunding product page",
             image: "./images/crowdfund.png",
             gitLink: "https://github.com/jawid-fakhari/crowdfunding-product-page-main.git",
-            link: "https://crowdfunding-product-page-main-two.vercel.app/"
+            link: "https://crowdfunding-product-page-main-two.vercel.app/",
+            skills: "Html, CSS, JS"
         },
         {
             id: 9,
             name: "Tip Calculator",
             image: "/images/splitter.png",
             gitLink: "https://github.com/jawid-fakhari/15.tip-calculator-app-main-junior-.git",
-            link: "https://tip-calculator-app-xi.vercel.app/"
+            link: "https://tip-calculator-app-xi.vercel.app/",
+            skills: "Html, CSS, JS"
         },
-        // {
-        //     id: 10,
-        //     name: "Trafic Based Price",
-        //     image: "/images/traficBasedPrice.png",
-        //     gitLink: "https://github.com/jawid-fakhari/interactive-pricing-component-main---Copia.git",
-        //     link: "http://interactive-pricing-component-main-six.vercel.app/"
-        // },
         {
             id: 11,
             name: "Weather App",
             image: "/images/weatherApp.png",
             gitLink: "https://github.com/jawid-fakhari/weather-app.git",
-            link: "https://weather-app-ashen-one.vercel.app/"
+            link: "https://weather-app-ashen-one.vercel.app/",
+            skills: "Html, CSS, JS"
         },
         {
             id: 12,
             name: "To Do List",
             image: "/images/toDoList.png",
             gitLink: "https://github.com/jawid-fakhari/to-do-list-app.git",
-            link: "https://to-do-list-app-lyart-mu.vercel.app/"
+            link: "https://to-do-list-app-lyart-mu.vercel.app/",
+            skills: "Html, CSS, JS"
         },
         {
             id: 13,
             name: "Simpple Quiz",
             image: "/images/simpleQuiz.png",
             gitLink: "https://github.com/jawid-fakhari/Quiz-App.git",
-            link: "https://quiz-app-lilac-kappa.vercel.app/"
+            link: "https://quiz-app-lilac-kappa.vercel.app/",
+            skills: "Html, CSS, JS"
         },
         {
             id: 14,
             name: "Password Maker App",
             image: "./images/passwordGenrator.png",
             gitLink: "https://github.com/jawid-fakhari/password-maker-app.git",
-            link: "https://password-maker-app.vercel.app/"
+            link: "https://password-maker-app.vercel.app/",
+            skills: "Html, CSS, JS"
         },
         {
             id: 15,
-            name: "UX",
+            name: "Base Apparel coming soon page",
             image: "./images/comingSoon.png",
             gitLink: "https://github.com/jawid-fakhari/base-apparel-coming-soon-master.git",
-            link: "https://base-apparel-coming-soon-master-beta-seven.vercel.app/"
-        },
-        {
-            id: 16,
-            name: "CSS",
-            image: "/images/CSSWork1.png",
-            gitLink: "https://github.com/jawid-fakhari/10.single-price-grid-component-master.git",
-            link: "https://single-price-grid-component-olive.vercel.app/"
-        },
-        {
-            id: 17,
-            name: "CSS",
-            image: "/images/CSSWork2.png",
-            gitLink: "https://github.com/jawid-fakhari/ping-coming-soon-page-master.git",
-            link: "https://ping-coming-soon-page-master-opal.vercel.app/"
-        },
-        {
-            id: 18,
-            name: "CSS grid",
-            image: "/images/gridCSS.png",
-            gitLink: "https://github.com/jawid-fakhari/5.testimonials-grid-section-main.git",
-            link: "https://5-testimonials-grid-section-main.vercel.app/"
-        },
-        {
-            id: 19,
-            name: "CSS grid",
-            image: "/images/gridCSS1.png",
-            gitLink: "https://github.com/jawid-fakhari/social-proof-section-master.git",
-            link: "https://social-proof-section-master-one-pi.vercel.app/"
-        },
-        {
-            id: 20,
-            name: "CSS grid",
-            image: "/images/gridCSS2.png",
-            gitLink: "https://github.com/jawid-fakhari/3-column-preview-card-component-main.git",
-            link: "http://3-column-preview-card-component-main-hazel.vercel.app/"
+            link: "https://base-apparel-coming-soon-master-beta-seven.vercel.app/",
+            skills: "Html, CSS, JS"
         },
         {
             id: 21,
-            name: "Account Maker",
-            image: "/images/accountMaker.png",
+            name: "Intro component with sign-up form",
+            image: "/images/signup2.png",
             gitLink: "https://github.com/jawid-fakhari/intro-component-with-signup-form-master.git",
-            link: "https://intro-componen-git-master-jawid-2ffa19.vercel.app/"
-        },
-        {
-            id: 22,
-            name: "CSS grid",
-            image: "/images/gridCSS3.png",
-            gitLink: "https://github.com/jawid-fakhari/article-preview-component-master.git",
-            link: "https://article-preview-component-master-ochre.vercel.app/"
-        },
-        {
-            id: 23,
-            name: "UX",
-            image: "/images/uxWork.png",
-            gitLink: "https://github.com/jawid-fakhari/four-card-feature-section-master.git",
-            link: "http://four-card-feature-section-master-three-mauve.vercel.app/"
+            link: "https://intro-componen-git-master-jawid-2ffa19.vercel.app/",
+            skills: "Html, CSS, JS"
         },
     ],
     about: {

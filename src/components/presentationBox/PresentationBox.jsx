@@ -12,18 +12,33 @@ function PresentationBox(props) {
                     </div>
                     <div className={Styled.viewLinks}>
                         <div className={`${Styled.projectLink} ${"contactLink"}`}>
-                            <a href={props.link}>VIEW PROJECT</a>
+                            {props.link.includes("https://") ?
+                                <a href={props.link} target='_blank' rel="noreferrer">VIEW PROJECT</a> :
+                                // eslint-disable-next-line jsx-a11y/anchor-is-valid
+                                <a onClick={() => alert("not linked yet")}>VIEW PROJECT</a>
+                            }
                         </div>
                         <div className={`${Styled.gitLink} ${"contactLink"}`}>
-                            <a href={props.gitLink}>VIEW CODE</a>
+                            {props.link.includes("https://") ?
+                                <a href={props.gitLink} target='_blank' rel="noreferrer">VIEW CODE</a> :
+                                // eslint-disable-next-line jsx-a11y/anchor-is-valid
+                                <a onClick={() => alert("not linked yet")}>VIEW CODE</a>
+                            }
                         </div>
                     </div>
                 </div>
                 <p className="titleM">{props.name}</p>
-                <p className='prgMedium'>SKILLS, SKILLS, SKILLS</p>
+                <p className='prgMedium'>{props.skills}</p>
             </div>
         </>
     )
 }
 
 export default PresentationBox
+
+
+//     < div onClick = {() =>
+// link.includes("https://")
+//     ? window.open(link, '_blank')
+//     : alert("This project is still in progress. Explore other available projects!")
+// }>
