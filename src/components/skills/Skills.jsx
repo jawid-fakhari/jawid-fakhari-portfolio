@@ -10,23 +10,23 @@ function Skills() {
             <div className={Styled.skillsWrapper}>
                 <div className={Styled.html}>
                     <p className={`${Styled.skills} ${"titleL"}`}>HTML</p>
-                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
+                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>1 year experienced</p>
                 </div>
                 <div className={Styled.css}>
                     <p className={`${Styled.skills} ${"titleL"}`}>CSS</p>
-                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
+                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>1 year experienced</p>
                 </div>
                 <div className={Styled.javascript}>
                     <p className={`${Styled.skills} ${"titleL"}`}>JavaScript</p>
-                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
+                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>1 year experienced</p>
                 </div>
                 <div className={Styled.bootstrap}>
                     <p className={`${Styled.skills} ${"titleL"}`}>Bootstrap</p>
-                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
+                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>1 year experienced</p>
                 </div>
                 <div className={Styled.react}>
                     <p className={`${Styled.skills} ${"titleL"}`}>ReactJs</p>
-                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>2 year experienced</p>
+                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>4 month experienced</p>
                 </div>
             </div>
         </>
