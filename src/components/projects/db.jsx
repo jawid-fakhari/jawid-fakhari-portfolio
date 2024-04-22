@@ -122,8 +122,7 @@ const data = {
         },
     ],
     about: {
-        image: "/images/my-img.png",
-        text: ""
+        image: "/images/jobSeeker.png"
     },
     logo: {
         positive: "/images/my-logo-positive.png",

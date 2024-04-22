@@ -14,14 +14,14 @@ function PresentationBox(props) {
                         <div className={`${Styled.projectLink} ${"contactLink"}`}>
                             {props.link.includes("https://") ?
                                 <a href={props.link} target='_blank' rel="noreferrer">VIEW PROJECT</a> :
-                                // eslint-disable-next-line jsx-a11y/anchor-is-valid
+
                                 <a onClick={() => alert("not linked yet")}>VIEW PROJECT</a>
                             }
                         </div>
                         <div className={`${Styled.gitLink} ${"contactLink"}`}>
                             {props.link.includes("https://") ?
                                 <a href={props.gitLink} target='_blank' rel="noreferrer">VIEW CODE</a> :
-                                // eslint-disable-next-line jsx-a11y/anchor-is-valid
+
                                 <a onClick={() => alert("not linked yet")}>VIEW CODE</a>
                             }
                         </div>

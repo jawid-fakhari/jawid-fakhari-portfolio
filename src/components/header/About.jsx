@@ -2,6 +2,7 @@ import React from 'react'
 import '../../pages/home.css';
 import Styled from './about.module.css'
 import SocialIcons from '../socialIcons/SocialIcons';
+import data from '../projects/db'
 
 
 
@@ -17,7 +18,9 @@ function About() {
         <>
             <div className={Styled.headBox}>
                 <div className={Styled.imageBox}>
-                    <div className={Styled.image}></div>
+                    <div className={Styled.image}>
+                        <img src={data.about.image} alt="" />
+                    </div>
                 </div>
                 <SocialIcons />
 

@@ -7,7 +7,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
-  margin-bottom: 20px;
 }
 .left,
 .right {
@@ -16,4 +15,7 @@
 }
 .left p {
   margin: 10px 0;
+}
+hr {
+  margin: 20px 0;
 }
