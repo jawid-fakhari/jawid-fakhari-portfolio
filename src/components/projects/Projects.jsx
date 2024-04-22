@@ -11,9 +11,9 @@ function Projects() {
         <>
             <div className={Styled.title}>
                 <div className="titleXL">Projects</div>
-                <div className={`${Styled.right} ${"contactLink"}`}>
+                {/* <div className={`${Styled.right} ${"contactLink"}`}>
                     <a href="http://"><p>CONTACT ME</p></a>
-                </div>
+                </div> */}
             </div>
             <div className={Styled.boxesWrapper}>
                 {data.projects.map((project, index) =>

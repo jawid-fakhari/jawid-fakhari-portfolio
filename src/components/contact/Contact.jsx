@@ -6,7 +6,7 @@ import EmailJs from '../emailJs/EmailJs';
 
 function Contact() {
     return (
-        <>
+        <div id='contactSection'>
             <div className={Styled.footer}>
                 <div className={Styled.boxes}>
                     <div className={Styled.left}>
@@ -22,7 +22,7 @@ function Contact() {
                 <hr />
                 <SocialIcons />
             </div>
-        </>
+        </div>
     )
 }
 

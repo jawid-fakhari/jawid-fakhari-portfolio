@@ -10,8 +10,8 @@ function SocialIcons() {
                     <p><span className={Styled.name}>Jawid</span>Fakhari</p>
                 </div>
                 <div className={Styled.socialIcons}>
-                    <FaGithubSquare />
-                    <FaLinkedin />
+                    <a href="https://github.com/jawid-fakhari" target='_blank' rel="noreferrer"><FaGithubSquare /></a>
+                    <a href="https://www.linkedin.com/in/fakhari-jawid/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
                 </div>
             </div>
         </>

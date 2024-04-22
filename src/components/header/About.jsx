@@ -6,6 +6,13 @@ import SocialIcons from '../socialIcons/SocialIcons';
 
 
 function About() {
+    function scrollToComponent(event) {
+        event.preventDefault();
+
+        const componenteDestinazione = document.getElementById('contactSection');
+        componenteDestinazione.scrollIntoView({ behavior: 'smooth' });
+    }
+
     return (
         <>
             <div className={Styled.headBox}>
@@ -22,7 +29,7 @@ function About() {
                         <p className="prgMedium">With a strong focus on frontend development, I'm dedicated to mastering the latest technologies and design principles to create visually stunning and user-friendly websites.</p>
                     </div>
                     <div className="contactLink">
-                        <a href='#Contact'>CONTACT ME</a>
+                        <a href='#' onClick={scrollToComponent}>CONTACT ME</a>
                     </div>
                 </div>
             </div >
