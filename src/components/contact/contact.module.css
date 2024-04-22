@@ -1,0 +1,19 @@
+.footer {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #242424;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.left,
+.right {
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+.left p {
+  margin: 10px 0;
+}
