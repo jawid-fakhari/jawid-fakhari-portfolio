@@ -1,0 +1,27 @@
+/**Headers**/
+.headBox {
+  min-height: 65vh;
+}
+
+.imageBox {
+  position: absolute;
+  z-index: -1;
+  width: 350px;
+  height: 550px;
+  right: 10%;
+}
+
+/**/
+.titleBox p {
+  margin: 0;
+  padding-top: 35px;
+}
+.titleBox p span {
+  text-decoration: underline 3px #4c0bce;
+  text-underline-offset: 15px;
+}
+.presentationBox {
+  margin: 50px 0;
+  width: 50%;
+}
+/**/
