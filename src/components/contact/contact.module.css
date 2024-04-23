@@ -19,3 +19,11 @@
 hr {
   margin: 20px 0;
 }
+
+@media screen and (max-width: 575px) {
+  .boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}

@@ -6,9 +6,7 @@
 .imageBox {
   position: absolute;
   z-index: -1;
-  width: 350px;
-  height: 550px;
-  right: 10%;
+  right: 11%;
 }
 
 /**/
@@ -20,8 +18,23 @@
   text-decoration: underline 3px #4c0bce;
   text-underline-offset: 15px;
 }
-.presentationBox {
+.presentationWrap {
   margin: 50px 0;
   width: 50%;
 }
 /**/
+
+@media screen and (max-width: 1626px) {
+  .titleBox {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .imageBox img {
+    display: none;
+  }
+  .presentationWrap {
+    margin: 50px 0;
+    width: 80%;
+  }
+}

@@ -5,7 +5,7 @@ import Styled from './skills.module.css'
 function Skills() {
     return (
         <>
-            <hr />
+            {/* <hr /> */}
             <p className={`${Styled.skills} ${"titleL"}`}>Learning Path</p>
             <div className={Styled.skillsWrapper}>
                 <div className={Styled.html}>
@@ -27,6 +27,14 @@ function Skills() {
                 <div className={Styled.react}>
                     <p className={`${Styled.skills} ${"titleL"}`}>ReactJs</p>
                     <p className={`${Styled.skillLevel} ${"prgMedium"}`}>4 month experienced</p>
+                </div>
+                <div className={Styled.nodeJs}>
+                    <p className={`${Styled.skills} ${"titleL"}`}>NodeJs</p>
+                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>in progress...</p>
+                </div>
+                <div className={Styled.cSharp}>
+                    <p className={`${Styled.skills} ${"titleL"}`}>C#</p>
+                    <p className={`${Styled.skillLevel} ${"prgMedium"}`}>in progress...</p>
                 </div>
             </div>
         </>
